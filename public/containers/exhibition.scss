@@ -1,0 +1,27 @@
+.tex_wrapper{
+  min-height: 100vh;
+  .tex_main_wrapper{
+    .tex_content_wrapper{
+      min-height: 280px;
+      background: #fff;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tex_main_wrapper{
+    padding:24px 50px 0px 50px;
+    .tex_content_wrapper{
+      padding: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tex_main_wrapper{
+    .tex_content_wrapper{
+      background: #fff;
+      padding: 12px;
+    }
+  }
+}

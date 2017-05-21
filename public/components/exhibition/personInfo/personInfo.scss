@@ -1,0 +1,27 @@
+$title_color: #999999;
+
+.person_info_wrapper{
+  font-size: 14px;
+  .person_item_wrapper{
+    margin-bottom: 20px;
+    .person_title{
+      color: $title_color;
+      .person_title_icon{
+        margin-right: 5px;
+        color: #000;
+      }
+    }
+    .person_content{
+      font-size: 18px;
+    }
+  }
+}
+
+.edit_title{
+  a{
+    color:#000;
+    margin-right: 20px;
+  }
+  display: flex;
+  justify-content: space-between;
+}

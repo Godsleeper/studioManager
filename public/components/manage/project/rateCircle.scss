@@ -1,0 +1,16 @@
+.rate_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  .btn_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+  }
+  .circle_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

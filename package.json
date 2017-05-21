@@ -1,0 +1,63 @@
+{
+  "name": "studio",
+  "version": "1.0.0",
+  "description": "a website for studio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Godsleeper/studioManager.git"
+  },
+  "keywords": [
+    "studio"
+  ],
+  "author": "xisi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Godsleeper/studioManager/issues"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "connect-mongo": "^1.3.2",
+    "connect-multiparty": "^2.0.0",
+    "cookie-parser": "~1.4.3",
+    "css-loader": "^0.26.1",
+    "debug": "~2.2.0",
+    "echarts": "^3.5.4",
+    "ejs": "^2.5.4",
+    "express": "~4.14.0",
+    "file-loader": "^0.9.0",
+    "jquery": "^3.1.1",
+    "mockjs": "^1.0.1-beta3",
+    "mongoose": "^4.7.2",
+    "morgan": "~1.7.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "sass-loader": "^4.0.2",
+    "serve-favicon": "~2.3.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-import": "^1.1.1",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "bcryptjs": "^2.4.0",
+    "bell-on-bundler-error-plugin": "^1.0.8",
+    "connect-mongo": "^1.3.2",
+    "cookie-session": "^2.0.0-alpha.2",
+    "express-session": "^1.14.2",
+    "moment": "^2.17.1"
+  },
+  "homepage": "https://github.com/Godsleeper/studioManager#readme"
+}

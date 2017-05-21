@@ -1,0 +1,21 @@
+.ant-carousel{
+  .slick-slide {
+    color: #000;
+    overflow: hidden;
+  }
+  .slick-dots{
+    .slick-active{
+      button{
+        background: #49a9ee!important;
+      }
+    }
+    li{
+      button{
+        background: #add8f7!important;;
+      }
+    }
+
+  }
+}
+
+

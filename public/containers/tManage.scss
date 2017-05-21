@@ -1,0 +1,13 @@
+$bg_color: #ececec;
+
+.man_wrapper{
+  min-height: 100vh;
+  .man_content_wrapper{
+    padding:24px;
+    background: $bg_color;
+  }
+}
+
+.man_foot_wrapper{
+  text-align: center;
+}
